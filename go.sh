@@ -1,4 +1,7 @@
 #! /usr/bin/bash
+# cd to desired displaced leptons directory and cmsenv
+
+# usage: . go.sh YEAR CHANNEL
 
 year=$1
 channel=${2:-}
