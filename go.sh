@@ -15,6 +15,7 @@ elif [ "$year" = "18" ]; then
     release="CMSSW_10_2_12"
 else
     echo "Unknown year"
+    exit 1
 fi
 
 if [ "$channel" = "ee" ]; then
@@ -29,3 +30,4 @@ fi
 
 cd 'nobackup/DisplacedSUSY/'"$release"'/src/DisplacedSUSY/'"$local_path"
 cmsenv
+clear
