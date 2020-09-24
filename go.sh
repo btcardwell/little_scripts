@@ -28,6 +28,7 @@ else
     local_path=""
 fi
 
+cd ~
 cd 'nobackup/DisplacedSUSY/'"$release"'/src/DisplacedSUSY/'"$local_path"
 cmsenv
 clear
